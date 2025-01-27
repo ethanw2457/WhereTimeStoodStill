@@ -116,7 +116,9 @@ body {
     max-height: 50vh;
     transition: .5s;
     vertical-align: top;
-    filter: saturate(40%) sepia(30%) hue-rotate(5deg);
+    /* filter: saturate(40%) sepia(30%) hue-rotate(5deg); */
+    /* Does not work well with mobile because you cannot hover, but for pc it works great */
+    /* If you want to gray it out again, uncomment the filter */
   }
   a:hover img {
     filter: none;
